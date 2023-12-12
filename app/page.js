@@ -2,7 +2,6 @@
 // import HomePage from "@/components/HomePage";
 import HomePage from "@/components/mag/HomePage";
 import OurProducts from "@/app/(shop)/product/OurProducts";
-import Promotion from "@/app/(shop)/product/Promotion";
 
 export default function Home() {
   return (

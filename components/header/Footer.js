@@ -27,13 +27,13 @@ const Footer = () => {
       </div>
       <div className="flex w-full flex-col items-start justify-between pt-10 md:flex-row">
         <div className="relative flex flex-col items-start justify-start text-left">
-          <h2 className="flex flex-row items-center justify-center px-4 text-lg font-bold text-hText dark:text-hTextD">
+          <h2 className="flex flex-row items-center justify-center px-4 text-lg font-bold text-hText dark:text-hText">
             Мальва
           </h2>
           <ul className="flex items-center justify-between">
             <li className="flex  flex-row items-center justify-start px-4">
               {/* <a href="https://www.facebook.com/profile.php?id=100017742340573"> */}
-              
+
               <a
                 className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
                 href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="
@@ -41,7 +41,7 @@ const Footer = () => {
               >
                 {/* IconInstagram */}
                 <svg
-                  className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
+                  className="h-6 w-6 "
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -67,7 +67,7 @@ const Footer = () => {
           <ul className="text-hText dark:text-hText">
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               <svg
-                className="h-6 w-6 text-IconH dark:text-IconHD"
+                className="h-6 w-6 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -90,7 +90,7 @@ const Footer = () => {
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               {/* phone */}
               <svg
-                className="h-6 w-6 text-IconH dark:text-IconHD"
+                className="h-6 w-6 "
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -111,7 +111,7 @@ const Footer = () => {
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               {/* phone */}
               <svg
-                className="h-6 w-6 text-IconH dark:text-IconHD"
+                className="h-6 w-6"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -131,7 +131,7 @@ const Footer = () => {
             </li>
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               <svg
-                className="h-6 w-6 text-IconH dark:text-IconHD"
+                className="h-6 w-6"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"

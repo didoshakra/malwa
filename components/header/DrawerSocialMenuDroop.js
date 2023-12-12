@@ -12,13 +12,13 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
     return (
       <>
         <a
-          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHov"
-          //   href="https://www.facebook.com/profile.php?id=100004339204236"
+          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+          href="https://www.facebok.com/profile.php?id=100004339204236"
           title="Facebook"
         >
           {/* Facebook */}
           <svg
-            className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
+            className="h-6 w-6 "
             //   className="h-6 w-6 text-hText dark:text-hText"
             viewBox="0 0 24 24"
             fill="none"
@@ -40,7 +40,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
         >
           {/* Twitter */}
           <svg
-            className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
+            className="h-6 w-6  "
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -60,7 +60,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
         >
           {/* IconInstagram */}
           <svg
-            className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
+            className="h-6 w-6  "
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
