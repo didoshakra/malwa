@@ -28,7 +28,8 @@ export default function DrawerDroop({ drawerOpen, setDrawerOpen }) {
               width={80}
               height={60}
             //   src="/images/home/Malva-Logo-109-60.jpg"
-              src="/images/home/Malwa-flower-80-60.jpg"
+            //   src="/images/home/Malwa-flower-80-60.jpg"
+              src="/images/home/Malwa-flower-80-60-kilce.jpg"
               alt="logo"
             />
           </Link>
