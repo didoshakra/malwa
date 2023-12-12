@@ -5,20 +5,20 @@ html[data-theme="theme2"] {
   --color-bodyBg: #f8e9f8;
   --color-bodyText: #060214;
 
-  /* //-- headTape -------------------------------------------- */
-  --color-hTapeBg: #f74d97;
+  /* //-- headTape - */
+  --color-hTapeBg: #6b8e23;
   --color-hTapeText: #fff;
 
   /* //-- head -------------------------------------------- */
-  --color-hBg: #f6dbe7;
-  --color-hBgHov: #f9c3da;
-  --color-hText: #f82782;
-  --color-hTextHov: #fa1f7e;
-  --color-hTextImg: #f686b7;
-  --color-hTextImg1: #f82782;
-  --color-hBorder: #f9c3da;
+  --color-hBg: #e3fad6;
+  --color-hBgHov: #c9dfa7;
+  --color-hText: #6b8e23;
+  --color-hTextHov: #354d05;
+  --color-hTextImg: #b6f943;
+  --color-hTextImg1: #8fdf04;
+  --color-hBorder: #dcdcdc;
 
   /*  //-- drawer -------------------------------------------- */
-  --color-drawDropMenuBg: #f8d2e4;
-  --color-drawDropHr: #f9c3da;
+  --color-drawDropMenuBg: #e7f4e0;
+  --color-drawDropHr: #6b8e23;
 }

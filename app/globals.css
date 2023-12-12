@@ -2,44 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-} */
-
 @layer base {
   html {
-    /* Для меню вибору тем */
-    --color-themeDefBg: #e7f4e0;
+    /*Тільки в globals.css -- Для меню вибору тем */
+    --color-themeDefBg: #f4e0e9;
     --color-theme1Bg: #e2e0f4;
-    --color-theme2Bg: #f4e0e9;
+    --color-theme2Bg: #e7f4e0;
     --color-theme3Bg: #e9d92d;
 
     /* //-- Загальні */
-    --color-bodyBg: #f1f7ed;
-    --color-bodyBgD: #414545;
-    --color-bodyText: #060214;
-    --color-bodyTextD: #fff;
+    --color-hTapeBg: #f74d97;
+    --color-hTapeText: #fff;
 
+    /*Тільки в globals.css */
+    --color-bodybgd: #414545;
+    --color-bodyTextD: #fff;
     --color-errorMsg: #f21e08;
     --color-errorMsgD: #f21e08;
-    --color-bodyeclipseBg: rgba(0, 0, 0, 0.4);
+    --color-bodyeclipseBg: rgba(36, 12, 12, 0.4);
 
-    /* //--  IconH /hesder(main,drawer,)-- */
+    /*Тільки в globals.css //IconH /hesder(main,drawer,)-- */
     --color-IconH: #6b8e23;
     --color-IconHD: #6b8e23;
     --color-IconHHov: red;
@@ -49,14 +31,16 @@
     --color-IconHBgHov: #c9dfa7;
     --color-IconHBgHovD: #e8efd3;
 
-    /* //--- iconT /Table,Form,Card, */
+    /*Тільки в globals.css  //--- iconT /Table,Form,Card, */
     --color-iconT: #f64532;
     --color-iconTD: #f64532;
 
-    /* //-- headTape -------------------------------------------- */
+    /* //-- headTape ---- */
+    --color-hTapeBg: #f82782;
     --color-hTapeText: #fff;
+
+    /*Тільки в globals.css -- headTape */
     --color-hTapeTextD: #6b8e23;
-    --color-hTapeBg: #6b8e23;
     --color-hTapeBgD: #000;
     --color-hTapeTextHov: red;
     --color-color-hTapeTextHovD: red;
@@ -64,18 +48,19 @@
     --color-hTapeTextBgHovD: #171919;
 
     /* //-- head -------------------------------------------- */
-    --color-hBg: #e3fad6;
+    --color-hBg: #f6dbe7;
+    --color-hBgHov: #f9c3da;
+    --color-hText: #f82782;
+    --color-hTextHov: #fa1f7e;
+    --color-hTextImg: #f686b7;
+    --color-hTextImg1: #f82782;
+    --color-hBorder: #f9c3da;
+
+    /*Тільки в globals.css -- head */
     --color-hBgD: #171919;
-    --color-hBgHov: #c9dfa7;
     --color-hBgHovD: #c9dfa7;
-    --color-hText: #6b8e23;
     --color-hTextD: #6b8e23;
-    --color-hTextHov: #354d05;
     --color-hTextHovD: #354d05;
-    /* --color-hTextImg: #fff; */
-    --color-hTextImg: #b6f943;
-    --color-hTextImg1: #8fdf04;
-    --color-hBorder: #dcdcdc;
     --color-hBorderD: #dcdcdc;
 
     /* //-- headMenu / + Всі випадаючі з head меню ??? */
@@ -92,10 +77,14 @@
     --color-menuTextAct: red;
     --color-menuTextActD: red; */
 
-    /*  //-- drawer -------------------------------------------- */
-    --color-drawDropMenuBg: #e7f4e0;
+    /*  //-- drawer --- */
+  --color-drawDropMenuBg: #f8d2e4;
+  --color-drawDropHr: #f9c3da;
+
+
+
+    /*Тільки в globals.css -- drawer -- */
     --color-drawDropMenuBgD: #141313;
-    --color-drawDropHr: #6b8e23;
     --color-drawDropHrD: #615f5f;
 
     /* //-- table (title/icons)-------------------------------------------- */

@@ -13,8 +13,8 @@ const HeaderLogo = () => {
         <Image
         //   src="/images/home/sun_man_hands-oval-ra-red-64-41.png"
           src="/images/home/Malwa-Logo-oval-72-40.png"
-          height={41} //Завжди Avto?
-          width={64} //Чомусь має пріорітет
+          height={40} //Завжди Avto?
+          width={72} //Чомусь має пріорітет
           //   fill
           alt="Logo1"
         />
