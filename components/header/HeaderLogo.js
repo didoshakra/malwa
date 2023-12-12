@@ -15,7 +15,7 @@ const HeaderLogo = () => {
           height={41} //Завжди Avto?
           width={64} //Чомусь має пріорітет
           //   fill
-          alt="Logo"
+          alt="Logo1"
         />
       </Link>
       <Link href="/">
