@@ -28,11 +28,12 @@ const Footer = () => {
       <div className="flex w-full flex-col items-start justify-between pt-10 md:flex-row">
         <div className="relative flex flex-col items-start justify-start text-left">
           <h2 className="flex flex-row items-center justify-center px-4 text-lg font-bold text-hText dark:text-hTextD">
-            RAtest
+            Мальва
           </h2>
           <ul className="flex items-center justify-between">
             <li className="flex  flex-row items-center justify-start px-4">
-              <a href="https://www.facebook.com/profile.php?id=100017742340573">
+              {/* <a href="https://www.facebook.com/profile.php?id=100017742340573"> */}
+              <a href="">
                 {/* Facebook */}
                 <svg
                   className="h-6 w-6 text-IconH dark:text-IconHD"
@@ -76,7 +77,7 @@ const Footer = () => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <span className="px-2"> вул. Гулака , Калуш, Україна</span>
+              <span className="px-2"> вул.Тихого, Калуш, Україна</span>
             </li>
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               {/* phone */}
@@ -136,7 +137,7 @@ const Footer = () => {
                 <path stroke="none" d="M0 0h24v24H0z" /> <rect x="3" y="5" width="18" height="14" rx="2" />{" "}
                 <polyline points="3 7 12 13 21 7" />
               </svg>
-              <span className="px-2">ra@gmail.com</span>
+              <span className="px-2">malwa@gmail.com</span>
             </li>
           </ul>
         </div>

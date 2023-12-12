@@ -13,7 +13,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
       <>
         <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHov"
-          href="https://www.facebook.com/profile.php?id=100004339204236"
+          //   href="https://www.facebook.com/profile.php?id=100004339204236"
           title="Facebook"
         >
           {/* Facebook */}
@@ -32,29 +32,10 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
           </svg>
           <p>Facebook</p>
         </a>
-        <a
-          className=" group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
-          href="https://github.com/didoshakra?tab=repositories"
-          title="IconGitHub"
-        >
-          {/* GitHub */}
-          <svg
-            className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            {" "}
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-          </svg>
-          <p>GitHub</p>
-        </a>
+
         <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
-          href="https://twitter.com/home?lang=uk"
+          //   href="https://twitter.com/home?lang=uk"
           title="Twitter"
         >
           {/* Twitter */}
@@ -74,7 +55,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
         </a>
         <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
-          href="https://www.facebook.com/profile.php?id=100017742340573"
+          href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="
           title="Instagram"
         >
           {/* IconInstagram */}
