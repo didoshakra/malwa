@@ -14,7 +14,8 @@ function ProductVeg({ item }) {
       className="border-hBorder group flex h-96 flex-col rounded  border-2  bg-white transition-transform duration-200 ease-out hover:scale-105"
       //   className="h-96 flex flex-col rounded border-2"
     >
-      <div className="m-2 relative max-h-72 flex-1 border border-2 border-red-700">
+      {/* <div className="m-2 relative max-h-72 flex-1 border border-2 border-red-700"> */}
+      <div className="m-2 relative max-h-72 flex-1 ">
           {/* <ItemImage item={item} width={350} height={280} /> */}
           <ItemImage item={item} fill />
       </div>
@@ -35,17 +36,15 @@ export default async function ProductsVeg() {
   // console.log("Products.js/products=", products)
   return (
     <section className="flex flex-col space-y-3 px-2 pb-5 pt-5 text-center text-hText">
-      <h1 className="tex-lg  font-serif italic">Нові продукти</h1>
-      <h2 className="text-4xl  font-bold ">Наші продукти</h2>
-      <p>
-        Наші продукти жавжди свіжі і якісні. Ви отримажте масу задоводення від
-        їх споживання
-      </p>
+      <h1 className="tex-lg  font-serif italic">Новий товар</h1>
+      {/* <h2 className="text-4xl  font-bold ">Наші ювелірні вироби і прикрасм</h2> */}
+      <h2 className="text-4xl  font-bold ">Наші прикраси</h2>
+      <p>Наші ювелірні не тільки прикрасять, а і піднімуть Ваш настрій.</p>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         {products.map((item) => (
           <ProductVeg key={item.id} item={item} />
         ))}
       </div>
     </section>
-  );
+  )
 }
