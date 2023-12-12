@@ -33,10 +33,15 @@ const Footer = () => {
           <ul className="flex items-center justify-between">
             <li className="flex  flex-row items-center justify-start px-4">
               {/* <a href="https://www.facebook.com/profile.php?id=100017742340573"> */}
-              <a href="">
-                {/* Facebook */}
+              
+              <a
+                className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+                href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="
+                title="Instagram"
+              >
+                {/* IconInstagram */}
                 <svg
-                  className="h-6 w-6 text-IconH dark:text-IconHD"
+                  className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -45,8 +50,11 @@ const Footer = () => {
                   strokeLinejoin="round"
                 >
                   {" "}
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />{" "}
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />{" "}
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                 </svg>
+                <p>Instagram</p>
               </a>
             </li>
           </ul>
