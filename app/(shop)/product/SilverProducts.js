@@ -1,7 +1,7 @@
 //Не треба уніфікувати, бо можкть бути різні контейнери відобрадення і різні маршрути  href={`/product/${item.id}`}
 //Під шаблон ProductVegefoogs(без цін і іконок)
 // import Image from "next/image"
-import { getOurProducts } from "@/app/(shop)/product/data/dataUorProducts"
+import { getSilverProducts } from "@/app/(shop)/product/data/dataSilverProducts"
 import Link from "next/link"
 import ItemImage from "@/components/_images/ItemImage"
 
@@ -43,13 +43,13 @@ function Product({ item }) {
 }
 
 export default async function Products() {
-  const products = await getOurProducts()
+  const products = await getSilverProducts()
   // console.log("Products.js/products=", products)
   return (
     <section className="flex flex-col space-y-3 px-2 pb-5 pt-5 text-center text-hText">
       {/* <h1 className="tex-lg  font-serif italic">Новий товар</h1> */}
-      <h2 className="text-4xl  font-bold ">Новий товар</h2>
-      {/* <h2 className="text-4xl  font-bold ">Наші прикраси</h2> */}
+      {/* <h2 className="text-4xl  font-bold ">Наші ювелірні вироби і прикрасм</h2> */}
+      <h2 className="text-4xl  font-bold ">Вироби зі срібла</h2>
       {/* <p>Наші ювелірні не тільки прикрасять, а і піднімуть Ваш настрій.</p> */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         {products.map((item) => (

@@ -1,5 +1,5 @@
 //Під шаблон ProductVegefoogs
-import { getAllProducts } from "@/app/(shop)/product/data/data"
+import { getAllProducts } from "@/app/(shop)/product/data/dataUorProducts"
 import Link from "next/link"
 import ItemImage from "@/components/_images/ItemImage"
 

@@ -1,7 +1,7 @@
 // Для визначення і візуалізації одного продукту
-import ItemImage from "@/components/_images/ItemImage";
-import { notFound } from "next/navigation";
-import { getProductById } from "@/app/(shop)/product/data/data";
+import ItemImage from "@/components/_images/ItemImage"
+import { notFound } from "next/navigation"
+import { getProductById } from "@/app/(shop)/product/data/dataUorProducts"
 //Фотки мають бути w254*h266
 
 // export function generateMetadata({ params }) {
@@ -13,8 +13,8 @@ import { getProductById } from "@/app/(shop)/product/data/data";
 
 export default async function ProductPage({ params }) {
   try {
-    const id = params.id;
-    const product = await getProductById(id);
+    const id = params.id
+    const product = await getProductById(id)
     // const res = await fetch(`https://fakestoreapi.com/products/${id}`)
     // const product = await res.json()
 
@@ -28,12 +28,8 @@ export default async function ProductPage({ params }) {
 
         <div className="divide-y ">
           <div className="space-y-2 pb-4">
-            <h1 className="text-center text-2xl font-bold md:text-4xl">
-              {product.title}
-            </h1>
-            <h2 className="text-center text-xl font-bold text-gray-500 md:text-3xl">
-              ${product.price}
-            </h2>
+            <h1 className="text-center text-2xl font-bold md:text-4xl">{product.title}</h1>
+            <h2 className="text-center text-xl font-bold text-gray-500 md:text-3xl">${product.price}</h2>
           </div>
 
           <div className="pt-8">
@@ -41,8 +37,8 @@ export default async function ProductPage({ params }) {
           </div>
         </div>
       </div>
-    );
+    )
   } catch (error) {
-    notFound();
+    notFound()
   }
 }
