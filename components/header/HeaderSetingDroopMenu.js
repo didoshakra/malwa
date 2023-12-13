@@ -7,17 +7,12 @@
 
 "use client";
 import { useState, useRef, useEffect } from "react";
-import Image from "next/image";
 import { useTheme } from "next-themes";
-import HeaderThemesDroopMenu from "./HeaderThemesDroopMenu";
-import avatar from "@/public/avatar/2.jpg";
+// import HeaderThemesDroopMenu from "./HeaderThemesDroopMenu";
+import ThemeSwitcher from "./ThemeSwitcher"
 
 const HeaderSetingDroopMenu = () => {
-  const { resolvedTheme, setTheme } = useTheme();
-  const [profile, setprofile] = useState("admin");
-
   const [setingMenuOpen, setSetingMenuOpen] = useState(false);
-  const [userMenuOpen, setUserMenuOpen] = useState(false);
 
   //*************Для клацання поза обєктом
   const ref_HeaderSetingDroopMenu = useRef(null);
@@ -28,7 +23,6 @@ const HeaderSetingDroopMenu = () => {
         // alert("Outside Clicked.");
         // console.log("Outside Clicked. ");
         setSetingMenuOpen(false);
-        setUserMenuOpen(false)
       }
     }
 
@@ -37,12 +31,11 @@ const HeaderSetingDroopMenu = () => {
     return () => {
       window.removeEventListener("mousedown", handleOutSideClick)
     }
-  }, [ref_HeaderSetingDroopMenu, setUserMenuOpen,setSetingMenuOpen])
+  }, [ref_HeaderSetingDroopMenu,setSetingMenuOpen])
 
   //випадаюче меню Налаштувань
   const onSetingMenu = () => {
     setSetingMenuOpen(!setingMenuOpen);
-    setUserMenuOpen(false); //Закриваєм меню
     // console.log("onSetingMenu/setingMenuOpen=", setingMenuOpen);
   };
 
@@ -66,7 +59,6 @@ const HeaderSetingDroopMenu = () => {
           <circle cx="12" cy="12" r="1" /> <circle cx="12" cy="5" r="1" /> <circle cx="12" cy="19" r="1" />
           {/* іконка шестерня */}
         </svg>
-       
       </button>
 
       {/* Випадаюче меню Seting */}
@@ -75,7 +67,7 @@ const HeaderSetingDroopMenu = () => {
           className={`m-0 w-[150px] rounded-lg  border border-hBorder bg-hBg p-1 text-base font-medium drop-shadow-md dark:border-hBorderD dark:bg-hBgD`}
         >
           <li className="dark:text-hTex flex w-full list-none  items-center text-hText  hover:bg-hBgHov  hover:text-hTextHov dark:hover:bg-hBgHov dark:hover:text-hTextHov">
-            <HeaderThemesDroopMenu setSetingMenuOpen={setSetingMenuOpen} />
+            <ThemeSwitcher setSetingMenuOpen={setSetingMenuOpen} />
           </li>
         </ul>
       </div>

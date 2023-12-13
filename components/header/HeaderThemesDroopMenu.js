@@ -8,7 +8,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import { useTheme } from "next-themes";
-import ThemesMenuDroop from "./ThemesMenuDroop";
+// import ThemesMenuDroop from "./ThemesMenuDroop";
 
 const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
 //   console.log(
@@ -44,7 +44,7 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
         // alert("Outside Clicked.");
         // console.log("Outside Clicked. ");
         setThemesMenuOpen(false)
-        setSetingThemesMenuOpen(false)
+        // setSetingThemesMenuOpen(false)
         // if (setSetingMenuOpen) setSetingMenuOpen(false);
       }
     }
@@ -54,7 +54,7 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
     return () => {
       window.removeEventListener("mousedown", handleOutSideClick)
     }
-  }, [ref_HeaderThemesDroopMenu, setThemesMenuOpen, setSetingThemesMenuOpen])
+  }, [ref_HeaderThemesDroopMenu, setThemesMenuOpen])
 
   //випадаюче меню Налаштувань
   const setSetingThemesMenuToggle = () => {
@@ -65,7 +65,7 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
   //Зміна в newTheme Context
   const themeMenuToggle = () => {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
-    setSetingThemesMenuOpen(false);
+    // setSetingThemesMenuOpen(false);
     setThemesMenuOpen(false);
     if (setSetingMenuOpen) setSetingMenuOpen(false);
   };
@@ -203,17 +203,16 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
             </p>
             <p>Темна/світла</p>
           </li>
-          <li
+          {/* <li
             //   ref={ref_HeaderThemesDroopMenu}
             className="active:text-hTextAct dark:active:text-hTextAct group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-hBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHov dark:hover:text-hTextHovD"
             onClick={() => setSetingThemesMenuOpen(!setingThemesMenuOpen)}
           >
             {/* // Від цього об'єкту li відраховуються відступи в випадаючих меню мов  */}
             {/* іконка валів/малювати */}
-            <p>
+            {/* <p>
               <svg
                 className="h-8 w-8 text-hText group-hover:text-hTextHov dark:text-hText dark:group-hover:text-hTextHov"
-                // class="h-8 w-8 text-red-500"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -228,7 +227,7 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
                 <rect x="5" y="3" width="14" height="6" rx="2" />{" "}
                 <path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5l-5 0v2" />{" "}
                 <rect x="10" y="15" width="4" height="6" rx="1" />
-              </svg>
+              </svg>  */}
               {/* іконка фарби */}
               {/* <svg
                 class="h-8 w-8 text-red-500"
@@ -248,18 +247,18 @@ const HeaderThemesDroopMenu = ({ setSetingMenuOpen }) => {
                 <circle cx="12" cy="7.5" r=".5" fill="currentColor" />{" "}
                 <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
               </svg> */}
-            </p>
+            {/* </p>
             <p>Теми</p>
-          </li>
+          </li> */}
         </ul>
         {/* Випадаюче меню Теми */}
-        {setingThemesMenuOpen && (
+        {/* {setingThemesMenuOpen && (
           <ThemesMenuDroop
             setSetingMenuOpen={setSetingMenuOpen} //0-й рівень
             setThemesMenuOpen={setThemesMenuOpen} //1-й рівень
             setSetingThemesMenuOpen={setSetingThemesMenuOpen} //1-й рівень
           />
-        )}
+        )} */}
       </div>
     </div>
   );

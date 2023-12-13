@@ -1,7 +1,7 @@
 //HeaderMenuRight  /Верхнє меню
 //Викликає меню(з іконоками) :UserSwitcher/ThemeSwitcher/LocaleSwitcher
 
-import HeaderThemesDroopMenu from "./HeaderThemesDroopMenu";
+import ThemeSwitcher from "./ThemeSwitcher"
 import HeaderSetingDroopMenu from "./HeaderSetingDroopMenu";
 
 
@@ -12,15 +12,15 @@ const HeaderMenuRight = () => {
     <div className=" flex items-center justify-end">
       {/* Іконки головного меню Seting */}
       <div className="hidden md:flex">
-        {/* тема */}
-        <HeaderThemesDroopMenu />
+        {/* тема тільки світла/темна */}
+        <ThemeSwitcher />
       </div>
       {/* Випадаюче меню Seting(мобільне) */}
       <div className="headerMenuRight__mobile">
         <HeaderSetingDroopMenu />
       </div>
     </div>
-  );
+  )
 }
 
 export default HeaderMenuRight
