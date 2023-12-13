@@ -36,7 +36,7 @@ const Footer = () => {
               {/* <a href="https://www.facebook.com/profile.php?id=100017742340573"> */}
 
               <a
-                className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+                className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHov"
                 href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="
                 title="Instagram"
               >
