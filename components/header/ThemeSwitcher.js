@@ -9,7 +9,7 @@ const ThemeSwitcher = ({setSetingMenuOpen}) => {
 
   const onTheme = () => {
     setTheme(resolvedTheme === "dark" ? "light" : "dark")
-    setSetingMenuOpen(false)
+    if (setSetingMenuOpen) setSetingMenuOpen(false)
   }
 
   return (
