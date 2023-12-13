@@ -11,13 +11,13 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
   const renderMenu = () => {
     return (
       <>
-        <a
+        {/* <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
           href="https://www.facebok.com/profile.php?id=100004339204236"
           title="Facebook"
-        >
+        > */}
           {/* Facebook */}
-          <svg
+          {/* <svg
             className="h-6 w-6 "
             //   className="h-6 w-6 text-hText dark:text-hText"
             viewBox="0 0 24 24"
@@ -31,15 +31,15 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
           </svg>
           <p>Facebook</p>
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
           //   href="https://twitter.com/home?lang=uk"
           title="Twitter"
-        >
+        > */}
           {/* Twitter */}
-          <svg
+          {/* <svg
             className="h-6 w-6  "
             viewBox="0 0 24 24"
             fill="none"
@@ -52,7 +52,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
           </svg>
           <p>Twitter</p>
-        </a>
+        </a> */}
         <a
           className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
           href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="

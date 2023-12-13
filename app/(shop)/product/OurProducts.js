@@ -15,7 +15,7 @@ function Product({ item }) {
       className="border-hBorder group flex h-96 flex-col rounded  border-2  bg-white transition-transform duration-200 ease-out hover:scale-105"
       //   className="h-96 flex flex-col rounded border-2"
     >
-      <div className="m-2 relative max-h-72 flex-1 border border-2 border-red-700">
+      <div className="m-2 relative max-h-72 flex-1">
         {/* <div className="m-2 relative max-h-72 flex-1 "> */}
         {/* //НЕ заповнило весь контейнер */}
         {/* <ItemImage item={item} width={350} height={280} /> */}
