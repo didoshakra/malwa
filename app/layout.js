@@ -9,7 +9,7 @@ import Footer from "@/components/header/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Золото та срібло",
+  title: "Мальва. Золото та срібло",
   description: "Вироби із золота та срібла",
 };
 
