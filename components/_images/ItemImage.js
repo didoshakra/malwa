@@ -5,7 +5,7 @@ import Image from "next/image"
 import { useState } from "react"
 
 export default function ItemImag({ item, fill, width, height }) {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   // console.log("ItemImag/item= ", item)
 
   return (
