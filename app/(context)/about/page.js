@@ -2,7 +2,7 @@
 import ItemImage from "@/components/_images/ItemImage"
 import Image from 'next/image'
 
-const pageAboutMe_text1 = `"Мальва" - Магазин виробів з золота та срібла... "`
+const pageAboutMe_text1 = `"Мальва" - Магазин виробів із золота та срібла... "`
 
 const pageAboutMe_text2 = `Щоро запрошуємо відвідати наш магазин. Ви не пошкодуєте!!!`
 

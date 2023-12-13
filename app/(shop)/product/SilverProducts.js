@@ -49,7 +49,7 @@ export default async function Products() {
     <section className="flex flex-col space-y-3 px-2 pb-5 pt-5 text-center text-hText">
       {/* <h1 className="tex-lg  font-serif italic">Новий товар</h1> */}
       {/* <h2 className="text-4xl  font-bold ">Наші ювелірні вироби і прикрасм</h2> */}
-      <h2 className="text-4xl  font-bold ">Вироби зі срібла</h2>
+      <h2 className="text-3xl  font-bold ">Вироби зі срібла</h2>
       {/* <p>Наші ювелірні не тільки прикрасять, а і піднімуть Ваш настрій.</p> */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         {products.map((item) => (
