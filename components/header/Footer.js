@@ -5,12 +5,13 @@ const Footer = () => {
   return (
     <section className="mx-auto max-w-full bg-bodyBg dark:bg-bodyBgD">
       <div className=" flex items-center justify-center p-1">
+        {/* стрілка */}
         <a
           href="#"
-          className=" flex h-[60px] w-[60px]  items-center justify-center  rounded-full border-0 border-current bg-hBg  hover:bg-hBgHov dark:bg-hBgD dark:hover:bg-hBgHovD"
+          className=" flex h-[60px] w-[60px]  items-center justify-center  rounded-full border-0 border-current bg-hBg  hover:bg-hBgHov dark:bg-hBg dark:hover:bg-hBgHov"
         >
           <svg
-            className="h-10 w-10 text-IconH dark:text-IconHD"
+            className="h-10 w-10 text-hText"
             width="24"
             height="24"
             viewBox="0 0 24 24"
