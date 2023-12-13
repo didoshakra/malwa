@@ -12,12 +12,12 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
     return (
       <>
         {/* <a
-          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-hBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHovD dark:hover:text-hTextHovD"
           href="https://www.facebok.com/profile.php?id=100004339204236"
           title="Facebook"
         > */}
-          {/* Facebook */}
-          {/* <svg
+        {/* Facebook */}
+        {/* <svg
             className="h-6 w-6 "
             //   className="h-6 w-6 text-hText dark:text-hText"
             viewBox="0 0 24 24"
@@ -34,12 +34,12 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
         </a> */}
 
         {/* <a
-          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-hBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHovD dark:hover:text-hTextHovD"
           //   href="https://twitter.com/home?lang=uk"
           title="Twitter"
         > */}
-          {/* Twitter */}
-          {/* <svg
+        {/* Twitter */}
+        {/* <svg
             className="h-6 w-6  "
             viewBox="0 0 24 24"
             fill="none"
@@ -54,13 +54,13 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
           <p>Twitter</p>
         </a> */}
         <a
-          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD dark:hover:text-hTextHovD"
+          className="group flex list-none flex-nowrap items-center space-x-1 p-1 text-hText hover:bg-hBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHov dark:hover:text-hTextHov"
           href="https://www.instagram.com/reel/Cx0AWinMBnR/?igshid=MTc4MmM1YmI2Ng=="
           title="Instagram"
         >
           {/* IconInstagram */}
           <svg
-            className="h-6 w-6  "
+            className="h-6 w-6 "
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -80,8 +80,8 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
 
   return (
     <div className="m-0 items-center">
-      <button
-        className="group flex list-none flex-nowrap items-center space-x-1 text-hText hover:bg-drawDropMenuBgHov hover:text-hTextHov dark:text-hText dark:hover:bg-drawDropMenuBgHovD "
+      <div
+        className="w-fullroup flex list-none flex-nowrap items-center space-x-1 text-hText  hover:bg-hBgHov  hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHov dark:hover:text-hTextHov"
         onClick={() => setDrawerSocialMenuDroop(!drawerSocialMenuDroop)}
         title="меню"
       >
@@ -120,7 +120,7 @@ const DrawerSocialMenuDroop = ({ setDrawerOpen }) => {
             <path stroke="none" d="M0 0h24v24H0z" /> <polyline points="6 9 12 15 18 9" />
           </svg>
         )}
-      </button>
+      </div>
 
       <div className={`${drawerSocialMenuDroop ? "relative" : "hidden"}  text-base font-normal px-2`}>
         <div>{renderMenu()}</div>

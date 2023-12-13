@@ -32,11 +32,11 @@ const DrawerAdminMenuDroop = ({ setDrawerOpen }) => {
         title="меню"
       >
         {/* іконка мобільного меню */}
-        <p className="pl-2 text-lg font-medium italic  text-hText dark:text-hTextD ">Меню Адміністратора</p>
+        <p className="pl-2 text-lg font-medium italic text-hText dark:text-hText ">Меню Адміністратора</p>
         {drawerAdminMenuDroopOpen ? (
           // стрілка вверх
           <svg
-            className="h-6 w-6  dark:hover:text-hTextHovD dark:group-hover:text-hTextHovD"
+            className="h-6 w-6  dark:hover:text-hTextHov dark:group-hover:text-hTextHov"
             width="24"
             height="24"
             viewBox="0 0 24 24"
