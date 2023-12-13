@@ -34,10 +34,11 @@ const DrawerHeaderMenuDroop = ({ setDrawerOpen }) => {
       <div
         className="w-fullroup flex list-none flex-nowrap items-center space-x-1 text-hText  hover:bg-hBgHov  hover:text-hTextHov dark:text-hText dark:hover:bg-hBgHov dark:hover:text-hTextHov"
         onClick={() => setDrawerHeaderMenuDroopOpen(!drawerHeaderMenuDroopOpen)}
-        title="меню"
       >
         {/* іконка мобільного меню */}
-        <p className="pl-2 text-lg font-medium italic text-hText dark:text-hText ">Головне меню</p>
+        <p className="pl-2 text-lg font-medium italic text-hText dark:text-hText " title="меню">
+          Головне меню
+        </p>
         {drawerHeaderMenuDroopOpen ? (
           // стрілка вверх
           <svg

@@ -12,6 +12,7 @@ export default function DrawerSwitcher({ thrme }) {
       <button
         className="flex items-center justify-center rounded-full p-1 hover:bg-hBgHov dark:hover:bg-hBgHov md:p-2"
         onClick={(e) => setDrawerOpen(!drawerOpen)}
+        title='Drawer'
       >
         <svg
           className="h-8 w-8 text-hText hover:text-hTextHov dark:text-hText dark:hover:text-hTextHov"
