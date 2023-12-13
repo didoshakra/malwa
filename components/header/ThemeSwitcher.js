@@ -4,14 +4,20 @@
 import { useTheme } from "next-themes"
 // import resolveCofig from "tailwindcss/resolveConfig"; //отримання змінних з tailwind.config
 
-const ThemeSwitcher = () => {
+const ThemeSwitcher = ({setSetingMenuOpen}) => {
   const { resolvedTheme, setTheme } = useTheme()
+
+  const onTheme = () => {
+    setTheme(resolvedTheme === "dark" ? "light" : "dark")
+    setSetingMenuOpen(false)
+  }
 
   return (
     <button
       type="button"
       className="hover:bg-hBgHov dark:hover:bg-hBgHov flex items-center justify-center rounded-full p-2 transition-colors"
-      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      //   onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      onClick={onTheme}
       title="тема"
     >
       {resolvedTheme === "dark" ? (
