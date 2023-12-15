@@ -21,14 +21,19 @@ export default function DrawerDroop({ drawerOpen, setDrawerOpen }) {
       {/* <div className="w-full/5 fixed inset-0 z-20 flex max-h-[600px] max-w-[300px] flex-col overflow-y-scroll bg-drawerDropMenuBg transition-transform duration-200 ease-out dark:bg-drawDropMenuBgD"> */}
       {/* Шапка */}
       <div className="flex h-10 items-center justify-between gap-1">
-        <div className="flex items-center justify-between gap-1 pl-1  ">
+        <div
+          className="flex items-center justify-between gap-1 pl-1"
+          onClick={() => {
+            setDrawerOpen(false)
+          }}
+        >
           <Link href="/">
             <Image
               title="ramag"
               width={80}
               height={60}
-            //   src="/images/home/Malva-Logo-109-60.jpg"
-            //   src="/images/home/Malwa-flower-80-60.jpg"
+              //   src="/images/home/Malva-Logo-109-60.jpg"
+              //   src="/images/home/Malwa-flower-80-60.jpg"
               src="/images/home/Malwa-flower-80-60-kilce.jpg"
               alt="logo"
             />

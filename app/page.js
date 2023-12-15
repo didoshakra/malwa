@@ -1,6 +1,5 @@
 // import HomePage from "@/components/HomePage";
 import HomePage from "@/components/mag/HomePage";
-import OurProducts from "@/app/(shop)/product/OurProducts";
 import GoldProducts from "@/app/(shop)/product/GoldProducts";
 import SilverProducts from "@/app/(shop)/product/SilverProducts"
 
@@ -13,7 +12,6 @@ export default function Home() {
         <h2 className="text-4xl  font-bold ">Наші ювелірні вироби і прикраси</h2>
         <p className='text-base font-semibold'>Наші ювелірні не тільки прикрасять Вас, а і піднімуть Ваш настрій.</p>
       </section>
-      {/* <OurProducts /> */}
       <GoldProducts />
       <SilverProducts />
     </main>
