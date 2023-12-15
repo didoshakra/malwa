@@ -81,7 +81,7 @@ const Footer = () => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <span className="px-2"> : вул.Богдана Хмельницького,буд.21 "Мальва"</span>
+              <span className="px-2"> вул.Богдана Хмельницького,буд.21 Мальва</span>
             </li>
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               {/* phone */}

@@ -20,7 +20,8 @@ const About = () => {
         <div className="flex justify-center relative h-60 md:h-96 flex-1">
           {/* <ItemImage item={item} width={500} height={370} /> */}
           {/* <ItemImage item={item} fill /> */}
-          <Image fill src={item.image} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
+          <Image src={item.image} alt={item.title} fill className="w-full h-auto" />
+          {/* <Image fill src={item.image} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" /> */}
         </div>
         {/* //leading-6: висота лінії
           tracking-wide: інтервал між літерами. */}
