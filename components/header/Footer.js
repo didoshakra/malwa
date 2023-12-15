@@ -67,12 +67,7 @@ const Footer = () => {
           </h2>
           <ul className="text-hText dark:text-hText">
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
-              <svg
-                className="h-6 w-6 "
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
+              <svg className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -86,7 +81,7 @@ const Footer = () => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <span className="px-2"> вул.Тихого, Калуш, Україна</span>
+              <span className="px-2"> : вул.Богдана Хмельницького,буд.21 "Мальва"</span>
             </li>
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
               {/* phone */}
@@ -105,29 +100,8 @@ const Footer = () => {
                 <path stroke="none" d="M0 0h24v24H0z" />{" "}
                 <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
               </svg>
-              <a className="px-2" href="tel:+380500000000">
-                + 38(050-0000000)
-              </a>
-            </li>
-            <li className="flex  flex-row items-center justify-start px-4 text-sm">
-              {/* phone */}
-              <svg
-                className="h-6 w-6"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                {" "}
-                <path stroke="none" d="M0 0h24v24H0z" />{" "}
-                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-              </svg>
-              <a className="px-2" href="tel:+380680000000">
-                + 38(068-0000000)
+              <a className="px-2" href="tel:+38 0956331287">
+                + 38(095 633 1287)
               </a>
             </li>
             <li className="flex  flex-row items-center justify-start px-4 text-sm">
@@ -152,7 +126,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex w-full flex-row items-center justify-center pt-10 text-hText dark:text-hText">
-        Copyright © {new Date().getFullYear()}-{new Date().getMonth()}-{new Date().getDate()}
+        {/* Copyright © {new Date().getFullYear()}-{new Date().getMonth()}-{new Date().getDate()} */}
+        Copyright © 2023-12-15
         {/* Серце*/}
         <svg
           className="text-iconT dark:text-iconTD h-6 w-6"

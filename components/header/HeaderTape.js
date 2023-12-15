@@ -24,9 +24,9 @@ const HeaderTape = () => {
             <path stroke="none" d="M0 0h24v24H0z" />{" "}
             <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
           </svg>
-          +38(050-0000000)
+          +38(095 633 1287)
         </a>
-        <a className="flex items-center justify-start space-x-1 text-sm" href="tel:+380687832306">
+        {/* <a className="flex items-center justify-start space-x-1 text-sm" href="tel:+380687832306">
           <svg
             className="h-4 w-4 text-hTapeText dark:text-hText"
             width="24"
@@ -43,7 +43,7 @@ const HeaderTape = () => {
             <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
           </svg>
           +38(068-0000000)
-        </a>
+        </a> */}
       </div>
       {/* права сторона */}
       <div className="flex justify-between items-center text-center space-x-1 md:justify-end ">

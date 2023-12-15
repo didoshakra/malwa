@@ -10,10 +10,10 @@ import ItemImage from "@/components/_images/ItemImage"
 function Product({ item }) {
   //   console.log("************Product.js/P/item=", item);
   return (
-    <Link
-      href={`/product/${item.id}`}
+    <div
+    //   href={`/product/${item.id}`}
       //   href={`(shop)/product/${item.id}`}
-      className="border-hBorder group flex h-96 flex-col rounded  border-2  bg-white transition-transform duration-200 ease-out hover:scale-105"
+      className="border-hBorder group flex h-80 flex-col rounded  border-2  bg-white transition-transform duration-200 ease-out hover:scale-105"
       //   className="h-96 flex flex-col rounded border-2"
     >
       <div className="m-2 relative max-h-72 flex-1">
@@ -38,7 +38,7 @@ function Product({ item }) {
       <h3 className="text-center font-serif font-normal uppercase">{item.title}</h3>
       {/*line-clamp-2: Для затиску тексту до певної кількості рядків. */}
       <p className="line-clamp-2 px-4 text-xs italic text-hTexr">{item.description}</p>
-    </Link>
+    </div>
   )
 }
 
